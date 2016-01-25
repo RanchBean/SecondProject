@@ -9,6 +9,8 @@ int main()
 {
 	AfternoonController * baseController = new AfternoonController();
 	baseController->start();
+	//do the same thing ina different way
+	(*baseController).start();
 	return 0;
 }
 
